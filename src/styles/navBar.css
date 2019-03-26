@@ -1,0 +1,33 @@
+.navBar {
+  background-color: white;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+.textlogo {
+  display: inline;
+}
+
+.nav {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.item {
+  margin: 0px;
+  padding: 10px;
+  display: inline;
+  font-size: 20px;
+}
+
+.button {
+  font-size: 15px;
+  margin: 10px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #FAFAFA;
+  border-radius: 12px;
+  color: #757575;
+}
