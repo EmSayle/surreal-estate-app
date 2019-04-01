@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../styles/navBar.css';
 
@@ -9,8 +10,8 @@ const NavBar = () => (
     </div>
     <div className="nav">
       <h2 className="item">Surreal Estate</h2>
-      <button className="button">Add Property</button>
-      <button className="button">View Property</button>
+      <Link to="/add-property"><button className="button">Add Property</button></Link>
+      <Link to="/"><button className="button">View Property</button></Link>
     </div>
   </div>
 );

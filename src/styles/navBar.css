@@ -5,6 +5,7 @@
 
 .textlogo {
   display: inline;
+  color: #3F51B5;
 }
 
 .nav {
@@ -18,16 +19,19 @@
   padding: 10px;
   display: inline;
   font-size: 20px;
+  color: #3F51B5;
 }
 
 .button {
   font-size: 15px;
   margin: 10px;
   border: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #3F51B5;
 }
 
 .button:hover {
-  background-color: #FAFAFA;
+  background-color: #9FA8DA;
   border-radius: 12px;
-  color: #757575;
+  color: white;
 }
