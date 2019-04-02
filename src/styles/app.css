@@ -1,6 +1,8 @@
-.body {
+body {
   font-family: 'Ubuntu', sans-serif;
   margin: 0px;
   padding: 0px;
   background-color: #FAFAFA;
 }
+
+button:focus {outline:0;}
